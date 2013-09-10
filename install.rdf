@@ -6,11 +6,11 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>seturgent@fotoallerlei.com</em:id>
     <em:name>Seturgent</em:name>
-    <em:version>1.0</em:version>
+    <em:version>2.0</em:version>
     <em:creator>Benjamin Oesterle and Max Rosin</em:creator>
     
     <em:type>2</em:type>
-    <em:description>Sets the urgent flag (X11) of the Thunderbird window under Linux in case of new messages.</em:description>
+    <em:description>Sets the urgent flag (X11) of the Thunderbird window under Linux in case of new messages. Does ignore special folders like Drafts, Junk and such.</em:description>
     <em:iconURL>chrome://seturgent/skin/icon48.png</em:iconURL>
     <em:icon64URL>chrome://seturgent/skin/icon64.png</em:icon64URL>
     <em:targetPlatform>Linux</em:targetPlatform>
@@ -19,7 +19,7 @@
     <em:targetApplication>
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
-        <em:minVersion>1.5</em:minVersion>
+        <em:minVersion>3.*</em:minVersion>
         <em:maxVersion>17.*</em:maxVersion>
       </Description>
     </em:targetApplication>
